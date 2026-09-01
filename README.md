@@ -5,7 +5,7 @@ This repository contains the computation used to verify that no covering family 
 [4]^4 of size 11 exists.
 
 The problem is formulated as a binary integer feasibility problem. After normalizing
-the first permutation in each block to the identity, there are 13,824 candidate
+each first permutation to the identity, there are 13,824 candidate
 blocks. A binary variable is introduced for each block. The constraints require that
 
 - every element of [4]^4 is covered by at least one selected block;
