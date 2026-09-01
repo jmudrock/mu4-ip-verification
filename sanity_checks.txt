@@ -1,0 +1,10 @@
+Sanity checks for verify_mu4_ip.py
+
+python verify_mu4_ip.py 3 5 highs
+Result: Infeasible
+
+python verify_mu4_ip.py 3 6 highs
+Result: Feasible
+
+python verify_mu4_ip.py 4 12 highs
+Result: Feasible
