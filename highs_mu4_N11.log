@@ -1,14 +1,12 @@
-Microsoft Windows [Version 10.0.26200.9168]
-(c) Microsoft Corporation. All rights reserved.
+python verify_mu4_ip.py 4 11 highs
 
-C:\Users\jmudr>cd downloads
-
-C:\Users\jmudr\Downloads>python verify_independent_decision.py 4 11 highs
 Building independent decision set-cover instance...
 l=4 N=11 backend=highs: 13824 blocks, 256 points, block size 24
 Decision question: can at most 11 blocks cover all 256 points?
-Running HiGHS 1.15.1 (git hash: 04024d7): Copyright (c) 2026 under MIT licence terms
-Includes third-party software components, see THIRD_PARTY_NOTICES.md for full details
+Running HiGHS 1.15.1 (git hash: 04024d7)
+Microsoft Windows [Version 10.0.26200.9168]
+(c) Microsoft Corporation. All rights reserved.
+
 MIP has 257 rows; 13825 cols; 345600 nonzeros; 13824 integer variables (13824 binary)
 Coefficient ranges:
   Matrix  [1e+00, 1e+00]
@@ -995,5 +993,3 @@ Solving report
                     412713 (heuristics)
 Solver status: Infeasible
 INFEASIBLE: no covering family of size <= 11. Therefore kappa(4) > 11.
-
-C:\Users\jmudr\Downloads>verify_mu4_ip.pyverify_mu4_ip.pyverify_mu4_ip.py
