@@ -54,5 +54,4 @@ PuLP 3.3.0, and HiGHS 1.15.1 on Windows 11.
 
 ## Runtime
 
-The l=4, N=11 computation required approximately 99 minutes on the machine
-used for the reported run. Runtime may vary with hardware and solver version.
+The N=11 computation reported in the paper was performed using HiGHS 1.15.1 and required 5934.81 seconds. HiGHS explored 3,720 branch-and-bound nodes and performed 7,107,177 LP iterations. Runtime may vary with hardware and solver version.
