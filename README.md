@@ -25,7 +25,7 @@ Python 3
 
 Install the required packages with
 
-    python -m pip install pulp highspy
+    python -m pip install -r requirements.txt
 
 ## Run
 
