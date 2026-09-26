@@ -115,7 +115,7 @@ def main():
         print("Backend must be one of: highs, gurobi, cbc")
         return 2
 
-    print("Building decision set-cover instance...", flush=True)
+    print("Building independent decision set-cover instance...", flush=True)
     pts, cols = model(l)
 
     print(
